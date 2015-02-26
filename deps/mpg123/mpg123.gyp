@@ -187,7 +187,7 @@
           # "mpg123_backend" is the audio backend to use
           ['OS=="mac"', { 'mpg123_backend%': 'coreaudio' }],
           ['OS=="win"', { 'mpg123_backend%': 'win32' }],
-          ['OS=="linux"', { 'mpg123_backend%': 'alsa' }],
+          ['OS=="linux"', { 'mpg123_backend%': 'pulse' }],
           ['OS=="solaris"', { 'mpg123_backend%': 'sun' }],
         ]
       },
